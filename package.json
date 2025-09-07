@@ -1,27 +1,23 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Animesh's Portfolio",
+  "description": "Anubhav Pathak's Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Anubhav-Pathak/Portfolio.git"
   },
-  "author": "Animesh",
+  "author": "Anubhav Pathak",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Anubhav-Pathak/Portfolio/issues"
   },
   "homepage": "https://github.com/Anubhav-Pathak/Portfolio#readme",
   "devDependencies": {
-    "daisyui": "^3.7.3",
-    "tailwindcss": "^3.3.3"
   },
   "dependencies": {
-    "flowbite": "^1.8.1"
   }
 }

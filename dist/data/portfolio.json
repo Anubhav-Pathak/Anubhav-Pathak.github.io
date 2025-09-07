@@ -1,0 +1,196 @@
+{
+    "personalInfo": {
+        "name": "Anubhav Pathak",
+        "location": "India",
+        "email": "anubhavpathak99@gmail.com",
+        "phone": "+91 9140890224",
+        "social": {
+            "github": "https://github.com/Anubhav-Pathak",
+            "linkedin": "https://www.linkedin.com/in/anubhav-pathak-3026a4219/",
+            "twitter": "https://x.com/Anubhav44053858"
+        },
+        "resume": "/Anubhav_Pathak_Resume.pdf"
+    },
+
+    "navigation": {
+        "logo": "AP",
+        "menuItems": [
+            { "name": "About", "href": "#about" },
+            { "name": "Experience", "href": "#experience" },
+            { "name": "Projects", "href": "#projects" },
+            { "name": "Contact", "href": "#contact" },
+            { "name": "Resume", "href": "/Anubhav_Pathak_Resume.pdf", "external": true }
+        ]
+    },
+
+    "heroSection": {
+        "greeting": "Hi, I'm",
+        "animatedRoles": ["Software Engineer", "Flutter Developer", "Full Stack Developer"],
+        "description": "Building apps, refactoring systems & adaptive AI-driven experiences",
+        "quickStats": [
+            {"value": "1+", "label": "Years Experience"},
+            {"value": "12+", "label": "Projects Built"},
+            {"value": "500K+", "label": "Users Reached"}
+        ],
+        "ctaButtons": {
+            "primary": {
+                "text": "View My Work",
+                "link": "#projects",
+                "type": "section"
+            },
+            "secondary": {
+                "text": "Download Resume",
+                "link": "/Anubhav_Pathak_Resume.pdf",
+                "type": "download"
+            }
+        }
+    },
+
+    "about": {
+        "description": "Software Engineer experienced in Flutter, Next.js, TypeScript, and Python. I focus on building scalable apps, optimizing performance, and exploring AI/ML to create adaptive, user-focused solutions.",
+        "extended": {
+            "journey": "Started with curiosity for how things work, now I build apps that scale and delight users.",
+            "passion": "Excited about blending software engineering with AI/ML to solve real-world problems.",
+            "lifestyle": "Outside work, I explore new tech, play piano, and share knowledge."
+        },
+        "focusAreas": [
+            "AI-powered mobile apps with Flutter",
+            "Scalable platforms with Next.js & TypeScript",
+            "System optimization & clean architectures",
+            "LLM fine-tuning & RAG-driven applications"
+        ]
+    },
+
+    "skills": {
+        "primary": ["Flutter", "Node.js", "React.js", "Dart", "TypeScript"],
+        "secondary": ["C/C++", "BLoC", "Redux", "Express", "Firebase", "PostgreSQL", "MongoDB", "Prisma ORM", "Docker", "AWS"],
+        "tertiary": ["Java", "Python", "REST", "HyperSDK", "Git", "BitBucket", "Jenkins", "ArgoCD", "Jira", "Postman", "Neo4J", "GraphQL", "Google Cloud"]
+    },
+    
+    "experience": [
+        {
+            "company": "Junglee Games",
+            "role": "Software Development Engineer",
+            "duration": "Aug 2024 – Present",
+            "location": "Bangalore, India",
+            "achievements": [
+                "Shipped Smart Tips feature leading to 10% increase in user engagement",
+                "Built custom Flutter plugin for multi-card payments with HyperSDK integration",
+                "Refactored 40K+ lines of legacy code to Clean Architecture (3× faster load times)",
+                "Optimized client tracking by removing 100+ duplicate clickstreams"
+            ],
+            "technologies": ["Flutter", "Dart", "TypeScript", "Node.js", "CI/CD", "HyperSDK"],
+            "companyUrl": "https://www.jungleegames.com/"
+        },
+        {
+            "company": "CDAC",
+            "role": "Full Stack Intern",
+            "duration": "Jun 2024 – Jul 2024",
+            "location": "Chennai, India",
+            "achievements": [
+                "Migrated MariaDB → PostgreSQL (40% faster analytics queries)",
+                "Built Next.js + Zustand app for user & group management",
+                "Delivered responsive dashboard with MaterialUI & integrated reports",
+                "Added multi-level RBAC with NextAuth & JWT"
+            ],
+            "technologies": ["Next.js", "PostgreSQL", "Python", "Docker"],
+            "companyUrl": "https://www.cdac.in/"
+        }
+    ],
+
+
+    "education": {
+        "institution": "SRM Institute of Science and Technology",
+        "degree": "B.Tech in Computer Science and Engineering",
+        "cgpa": "9.2",
+        "duration": "2021 - 2025",
+        "location": "Chennai, India",
+        "institutionUrl": "https://www.srmist.edu.in/"
+    },
+
+
+    "projects": [
+        {
+            "id": 1,
+            "title": "Thrive",
+            "description": "AI-based adaptive narrative application for dynamic storytelling",
+            "longDescription": "Thrive is a storytelling engine built for Serious Games using Gemini (fine-tuned) with RAG pipelines to generate dynamic, choice-driven plots. It supports branching narratives with rollback and alternate paths through a graph-based progression system powered by Neo4J. The platform combines Flutter for cross-platform delivery with Vertex AI and a robust backend stack, enabling adaptive, immersive storytelling experiences.",
+            "technologies": [
+                "Flutter",
+                "Firebase",
+                "FlutterFire",
+                "Vertex AI",
+                "React",
+                "Express",
+                "Neo4J",
+                "Prisma ORM",
+                "PostgreSQL"
+            ],
+            "github": "https://github.com/Anubhav-Pathak/Thrive",
+            "demo": null,
+            "image": "/projects/thrive.jpg",
+            "featured": true,
+            "achievements": [
+                "Built a storytelling engine using Gemini + RAG for adaptive narratives",
+                "Implemented graph-based story progression with Neo4J",
+                "Enabled rollback and alternate story paths for dynamic storytelling"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Online KYC Verification Portal",
+            "description": "Real-time video KYC system with document and conversational verification",
+            "longDescription": "Developed during a 48-hour hackathon in a team of 3, this portal enables real-time video KYC with support for document capture and conversational verification workflows. It leverages WebRTC for secure video streams, Next.js for the frontend, and PostgreSQL for data storage, while integrating LangChain for conversational AI assistance.",
+            "technologies": [
+                "Next.js",
+                "WebRTC",
+                "LangChain",
+                "PostgreSQL"
+            ],
+            "github": "https://github.com/Anubhav-Pathak/video-kyc",
+            "demo": null,
+            "image": "/projects/kyc.jpg",
+            "featured": true,
+            "achievements": [
+                "Delivered functional prototype in 48 hours during a hackathon",
+                "Implemented real-time video KYC with document verification",
+                "Built conversational verification workflows powered by LangChain"
+            ]
+        }
+    ],
+
+    "contact": {
+        "title": "Let's Build Something Amazing Together",
+        "description": "I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!",
+        "availability": "cooking binaries",
+        "preferredContact": "email"
+    },
+
+    "ui": {
+        "sections": {
+            "about": {
+                "sectionNumber": "01.",
+                "title": "About Me",
+                "subtitle": "Get to know the person behind the code",
+                "currentFocusTitle": "Currently focused on:",
+                "skillsTitle": "Skills & Technologies",
+                "journeyTitle": "Professional Journey"
+            },
+            "projects": {
+                "sectionNumber": "03.",
+                "title": "Some Things I've Built",
+                "subtitle": "A showcase of my work and creativity",
+                "viewAllText": "View All Projects",
+                "viewCodeText": "View Code",
+                "liveDemoText": "Live Demo"
+            },
+            "contact": {
+                "sectionNumber": "04.",
+                "title": "Get In Touch",
+                "subtitle": "Let's start a conversation",
+                "formTitle": "Send me a message",
+                "submitButtonText": "Send Message"
+            }
+        }
+    }
+}
